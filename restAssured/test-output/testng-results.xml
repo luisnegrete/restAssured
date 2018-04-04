@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2586" started-at="2018-04-04T23:14:09Z" finished-at="2018-04-04T23:14:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="2586" started-at="2018-04-04T23:14:09Z" finished-at="2018-04-04T23:14:12Z">
+      <class name="com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest">
+        <test-method status="PASS" signature="testGetItem(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@68c4039c]" name="testGetItem" duration-ms="1936" started-at="2018-04-04T23:14:09Z" data-provider="providerGetItem" finished-at="2018-04-04T23:14:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/posts/{id}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[title]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[doloribus ad provident suscipit at]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetItem -->
+        <test-method status="PASS" signature="testGetItem(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@68c4039c]" name="testGetItem" duration-ms="251" started-at="2018-04-04T23:14:11Z" data-provider="providerGetItem" finished-at="2018-04-04T23:14:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/posts/{id}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[body]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[error suscipit maxime adipisci consequuntur recusandae
+voluptas eligendi et est et voluptates
+quia distinctio ab amet quaerat molestiae et vitae
+adipisci impedit sequi nesciunt quis consectetur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetItem -->
+        <test-method status="PASS" signature="testGetItem(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@68c4039c]" name="testGetItem" duration-ms="364" started-at="2018-04-04T23:14:12Z" data-provider="providerGetItem" finished-at="2018-04-04T23:14:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/posts/{id}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[id]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[userId]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetItem -->
+      </class> <!-- com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

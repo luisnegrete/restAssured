@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="8" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4264" started-at="2018-04-04T17:00:22Z" finished-at="2018-04-04T17:00:26Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4264" started-at="2018-04-04T17:00:22Z" finished-at="2018-04-04T17:00:26Z">
+      <class name="com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest">
+        <test-method status="PASS" signature="testValidateSchema(java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2ef9b8bc]" name="testValidateSchema" duration-ms="1776" started-at="2018-04-04T17:00:22Z" data-provider="providerTestValidateSchema" finished-at="2018-04-04T17:00:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/posts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[posts_shcema.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateSchema -->
+        <test-method status="PASS" signature="testValidateSchema(java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2ef9b8bc]" name="testValidateSchema" duration-ms="386" started-at="2018-04-04T17:00:24Z" data-provider="providerTestValidateSchema" finished-at="2018-04-04T17:00:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/comments]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[comments_schema.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateSchema -->
+        <test-method status="PASS" signature="testValidateSchema(java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2ef9b8bc]" name="testValidateSchema" duration-ms="320" started-at="2018-04-04T17:00:24Z" data-provider="providerTestValidateSchema" finished-at="2018-04-04T17:00:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/albums]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[albums_schema.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateSchema -->
+        <test-method status="PASS" signature="testValidateSchema(java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2ef9b8bc]" name="testValidateSchema" duration-ms="553" started-at="2018-04-04T17:00:24Z" data-provider="providerTestValidateSchema" finished-at="2018-04-04T17:00:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/photos]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[posts_shcema.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateSchema -->
+        <test-method status="PASS" signature="testValidateSchema(java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2ef9b8bc]" name="testValidateSchema" duration-ms="318" started-at="2018-04-04T17:00:25Z" data-provider="providerTestValidateSchema" finished-at="2018-04-04T17:00:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/todos]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[todos_schema.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateSchema -->
+        <test-method status="PASS" signature="testValidateSchema(java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2ef9b8bc]" name="testValidateSchema" duration-ms="890" started-at="2018-04-04T17:00:25Z" data-provider="providerTestValidateSchema" finished-at="2018-04-04T17:00:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/users]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[users_schema.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateSchema -->
+      </class> <!-- com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
