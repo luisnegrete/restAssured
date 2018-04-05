@@ -5,7 +5,7 @@
     <classes>
       <class name="com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest">
         <methods>
-          <include name="testGetItem" invocation-numbers="2"/>
+          <include name="testGetItem" invocation-numbers="0 2"/>
         </methods>
       </class> <!-- com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest -->
     </classes>

@@ -3,7 +3,8 @@
  */
 package com.globant.autoTraningBackend.restAssured;
 
-import static io.restassured.RestAssured.*;
+import static io.restassured.RestAssured.get;
+import static io.restassured.RestAssured.given;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
 
 import java.nio.file.Paths;
@@ -38,12 +39,8 @@ public class JsonPlaceHolderRest {
 	 * @param parameterValue
 	 * @return
 	 */
-	public String getItem(String url, String parameterName, String parameterValue, String fieldName) {
-		JsonPath jsPath = //get(url).jsonPath();
-				given().pathParam(parameterName, parameterValue).when().get(url).jsonPath();
-		
-		return jsPath.getString(fieldName);
-		
+	public JsonPath getItem(String url, String parameterName, String parameterValue) {
+		return	given().pathParam(parameterName, parameterValue).when().get(url).jsonPath();
 	}
 
 }
