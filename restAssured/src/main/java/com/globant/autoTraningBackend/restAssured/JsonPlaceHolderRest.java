@@ -10,6 +10,8 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
 import java.nio.file.Paths;
 
 import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+import io.restassured.response.ValidatableResponse;
 
 
 
@@ -18,18 +20,19 @@ import io.restassured.path.json.JsonPath;
  *
  */
 public class JsonPlaceHolderRest {
+	public static String BASE_URL = "https://jsonplaceholder.typicode.com";
 
 	public int getCodeResponse(String url) {
-		return get(url).getStatusCode();
+		return get(BASE_URL + url).getStatusCode();
 	}
 
 	public String getResponse(String url) {
-		return get(url).getBody().asString();
+		return get(BASE_URL + url).getBody().asString();
 	}
 
 	public void validateSchema(String url, String nameSchema) {
 		// When
-		get(url).then().assertThat().body(matchesJsonSchema(Paths.get(nameSchema).toUri()));
+		get(BASE_URL + url).then().assertThat().body(matchesJsonSchema(Paths.get(nameSchema).toUri()));
 	}
 
 	/**
@@ -40,7 +43,21 @@ public class JsonPlaceHolderRest {
 	 * @return
 	 */
 	public JsonPath getItem(String url, String parameterName, String parameterValue) {
-		return	given().pathParam(parameterName, parameterValue).when().get(url).jsonPath();
+		return	given().pathParam(parameterName, parameterValue).when().get(BASE_URL + url).jsonPath();
 	}
 
+	/**
+	 * Método que obtiene un recurso con un parametro definido
+	 * @param resource
+	 * @param paramName
+	 * @param paramValue
+	 */
+	 public JsonPath callImplementMethods(String resource, String paramName, String paramValue) {
+	        Response response = given()
+	                .baseUri(BASE_URL)
+	                .queryParam(paramName, paramValue)
+	                .get(resource);
+	        
+	        return response.jsonPath();
+	    }
 }

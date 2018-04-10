@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
       <class name="com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest">
         <methods>
-          <include name="testImplementMethods" invocation-numbers="0"/>
+          <include name="testGetItem" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest -->
     </classes>

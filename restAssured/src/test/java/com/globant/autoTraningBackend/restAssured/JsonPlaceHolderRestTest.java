@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import io.restassured.path.json.JsonPath;
 
 public class JsonPlaceHolderRestTest {
-	public static String BASE_URL = "https://jsonplaceholder.typicode.com";
+	
 	public static String RESOURCES_PATH = "src/test/resources/";
 
 	@DataProvider(name = "providerTestGetCodeResponse")
@@ -27,14 +27,14 @@ public class JsonPlaceHolderRestTest {
 	public void testGetCodeResponse(String resource) {
 		JsonPlaceHolderRest holderRest = new JsonPlaceHolderRest();
 
-		Assert.assertEquals(holderRest.getCodeResponse(BASE_URL + resource), HttpStatus.SC_OK);
+		Assert.assertEquals(holderRest.getCodeResponse(resource), HttpStatus.SC_OK);
 	}
 	
 	@Test
 	public void testGetResponse() {
 		JsonPlaceHolderRest holderRest = new JsonPlaceHolderRest();
 
-		System.out.println(holderRest.getResponse(BASE_URL+"/users"));
+		System.out.println(holderRest.getResponse("/users"));
 	}
 	
 	@DataProvider(name = "providerTestValidateSchema")
@@ -53,7 +53,7 @@ public class JsonPlaceHolderRestTest {
 	public void testValidateSchema(String resource, String nameSchema) {
 		JsonPlaceHolderRest holderRest = new JsonPlaceHolderRest();
 
-		holderRest.validateSchema(BASE_URL+ resource,RESOURCES_PATH + nameSchema);
+		holderRest.validateSchema(resource,RESOURCES_PATH + nameSchema);
 	}
 	
   	@DataProvider(name = "providerGetItem")
@@ -70,11 +70,29 @@ public class JsonPlaceHolderRestTest {
 			int expectedUsedIdValue,int expectedIdValue,String expectedTitleValue,String expectedBodyValue) {
 		JsonPlaceHolderRest holderRest = new JsonPlaceHolderRest();
 
-		JsonPath jsonPath = holderRest.getItem(BASE_URL + resource, parameterName, parameterValue);
+		JsonPath jsonPath = holderRest.getItem(resource, parameterName, parameterValue);
 		
 		Assert.assertEquals(jsonPath.get("userId"), expectedUsedIdValue);
 		Assert.assertEquals(jsonPath.get("id"), expectedIdValue);
 		Assert.assertEquals(jsonPath.get("title"), expectedTitleValue);
 		Assert.assertEquals(jsonPath.get("body"), expectedBodyValue);
+	}
+
+	@DataProvider(name = "providerTestImplementMethods")
+	public Object[][] createData4() {
+		return new Object[][] { 
+				{ "comments", "postId", "1"},
+				{ "posts", "userId", "1"},
+				};
+	}
+	
+	@Test(dataProvider= "providerTestImplementMethods")
+	public void testImplementMethods(String resource, String paramName, String paramValue) {
+		JsonPlaceHolderRest holderRest = new JsonPlaceHolderRest();
+		
+		JsonPath jsonPath = holderRest.callImplementMethods(resource, paramName, paramValue);
+		
+		Assert.assertNotNull(jsonPath.get(paramName));
+		
 	}
 }

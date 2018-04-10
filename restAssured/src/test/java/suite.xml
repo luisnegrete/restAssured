@@ -4,9 +4,7 @@
   <test name="Test">
     <classes>
       <class name="com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest">
-      <methods>
-      <include name="testGetItem"></include>
-      </methods>
+      
       </class>
     </classes>
   </test> <!-- Test -->

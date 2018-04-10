@@ -1,13 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="3078" started-at="2018-04-10T17:06:52Z" finished-at="2018-04-10T17:06:55Z">
+  <suite name="Suite" duration-ms="5707" started-at="2018-04-10T17:59:11Z" finished-at="2018-04-10T17:59:16Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="3078" started-at="2018-04-10T17:06:52Z" finished-at="2018-04-10T17:06:55Z">
+    <test name="Test" duration-ms="5707" started-at="2018-04-10T17:59:11Z" finished-at="2018-04-10T17:59:16Z">
       <class name="com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest">
-        <test-method status="PASS" signature="testGetItem(java.lang.String, java.lang.String, java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2ef9b8bc]" name="testGetItem" duration-ms="2410" started-at="2018-04-10T17:06:52Z" data-provider="providerGetItem" finished-at="2018-04-10T17:06:55Z">
+        <test-method status="PASS" signature="testGetCodeResponse(java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2c6a3f77]" name="testGetCodeResponse" duration-ms="1611" started-at="2018-04-10T17:59:11Z" data-provider="providerTestGetCodeResponse" finished-at="2018-04-10T17:59:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/posts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCodeResponse -->
+        <test-method status="PASS" signature="testGetCodeResponse(java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2c6a3f77]" name="testGetCodeResponse" duration-ms="438" started-at="2018-04-10T17:59:12Z" data-provider="providerTestGetCodeResponse" finished-at="2018-04-10T17:59:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/comments]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCodeResponse -->
+        <test-method status="PASS" signature="testGetCodeResponse(java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2c6a3f77]" name="testGetCodeResponse" duration-ms="333" started-at="2018-04-10T17:59:13Z" data-provider="providerTestGetCodeResponse" finished-at="2018-04-10T17:59:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/albums]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCodeResponse -->
+        <test-method status="PASS" signature="testGetCodeResponse(java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2c6a3f77]" name="testGetCodeResponse" duration-ms="370" started-at="2018-04-10T17:59:13Z" data-provider="providerTestGetCodeResponse" finished-at="2018-04-10T17:59:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/photos]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCodeResponse -->
+        <test-method status="PASS" signature="testGetCodeResponse(java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2c6a3f77]" name="testGetCodeResponse" duration-ms="225" started-at="2018-04-10T17:59:13Z" data-provider="providerTestGetCodeResponse" finished-at="2018-04-10T17:59:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/todos]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCodeResponse -->
+        <test-method status="PASS" signature="testGetCodeResponse(java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2c6a3f77]" name="testGetCodeResponse" duration-ms="367" started-at="2018-04-10T17:59:14Z" data-provider="providerTestGetCodeResponse" finished-at="2018-04-10T17:59:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/users]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCodeResponse -->
+        <test-method status="PASS" signature="testGetItem(java.lang.String, java.lang.String, java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2c6a3f77]" name="testGetItem" duration-ms="393" started-at="2018-04-10T17:59:14Z" data-provider="providerGetItem" finished-at="2018-04-10T17:59:14Z">
           <params>
             <param index="0">
               <value>
@@ -51,7 +117,7 @@ omnis rerum consequatur expedita quidem cumque explicabo]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetItem -->
-        <test-method status="PASS" signature="testGetItem(java.lang.String, java.lang.String, java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2ef9b8bc]" name="testGetItem" duration-ms="345" started-at="2018-04-10T17:06:55Z" data-provider="providerGetItem" finished-at="2018-04-10T17:06:55Z">
+        <test-method status="PASS" signature="testGetItem(java.lang.String, java.lang.String, java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2c6a3f77]" name="testGetItem" duration-ms="122" started-at="2018-04-10T17:59:14Z" data-provider="providerGetItem" finished-at="2018-04-10T17:59:15Z">
           <params>
             <param index="0">
               <value>
@@ -95,7 +161,7 @@ adipisci impedit sequi nesciunt quis consectetur]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetItem -->
-        <test-method status="PASS" signature="testGetItem(java.lang.String, java.lang.String, java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2ef9b8bc]" name="testGetItem" duration-ms="296" started-at="2018-04-10T17:06:55Z" data-provider="providerGetItem" finished-at="2018-04-10T17:06:55Z">
+        <test-method status="PASS" signature="testGetItem(java.lang.String, java.lang.String, java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2c6a3f77]" name="testGetItem" duration-ms="122" started-at="2018-04-10T17:59:15Z" data-provider="providerGetItem" finished-at="2018-04-10T17:59:15Z">
           <params>
             <param index="0">
               <value>
@@ -139,6 +205,148 @@ accusamus ratione error aut]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetItem -->
+        <test-method status="PASS" signature="testGetResponse()[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2c6a3f77]" name="testGetResponse" duration-ms="88" started-at="2018-04-10T17:59:15Z" finished-at="2018-04-10T17:59:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResponse -->
+        <test-method status="PASS" signature="testImplementMethods(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2c6a3f77]" name="testImplementMethods" duration-ms="168" started-at="2018-04-10T17:59:15Z" data-provider="providerTestImplementMethods" finished-at="2018-04-10T17:59:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[comments]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[postId]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImplementMethods -->
+        <test-method status="PASS" signature="testImplementMethods(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2c6a3f77]" name="testImplementMethods" duration-ms="95" started-at="2018-04-10T17:59:15Z" data-provider="providerTestImplementMethods" finished-at="2018-04-10T17:59:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[posts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[userId]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImplementMethods -->
+        <test-method status="PASS" signature="testValidateSchema(java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2c6a3f77]" name="testValidateSchema" duration-ms="560" started-at="2018-04-10T17:59:15Z" data-provider="providerTestValidateSchema" finished-at="2018-04-10T17:59:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/posts]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[posts_shcema.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateSchema -->
+        <test-method status="PASS" signature="testValidateSchema(java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2c6a3f77]" name="testValidateSchema" duration-ms="169" started-at="2018-04-10T17:59:16Z" data-provider="providerTestValidateSchema" finished-at="2018-04-10T17:59:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/comments]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[comments_schema.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateSchema -->
+        <test-method status="PASS" signature="testValidateSchema(java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2c6a3f77]" name="testValidateSchema" duration-ms="112" started-at="2018-04-10T17:59:16Z" data-provider="providerTestValidateSchema" finished-at="2018-04-10T17:59:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/albums]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[albums_schema.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateSchema -->
+        <test-method status="PASS" signature="testValidateSchema(java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2c6a3f77]" name="testValidateSchema" duration-ms="269" started-at="2018-04-10T17:59:16Z" data-provider="providerTestValidateSchema" finished-at="2018-04-10T17:59:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/photos]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[posts_shcema.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateSchema -->
+        <test-method status="PASS" signature="testValidateSchema(java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2c6a3f77]" name="testValidateSchema" duration-ms="106" started-at="2018-04-10T17:59:16Z" data-provider="providerTestValidateSchema" finished-at="2018-04-10T17:59:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/todos]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[todos_schema.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateSchema -->
+        <test-method status="PASS" signature="testValidateSchema(java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2c6a3f77]" name="testValidateSchema" duration-ms="131" started-at="2018-04-10T17:59:16Z" data-provider="providerTestValidateSchema" finished-at="2018-04-10T17:59:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/users]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[todos_schema.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateSchema -->
       </class> <!-- com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
