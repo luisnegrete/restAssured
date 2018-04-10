@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="2048" started-at="2018-04-05T22:57:57Z" finished-at="2018-04-05T22:57:59Z">
+  <suite name="Suite" duration-ms="3078" started-at="2018-04-10T17:06:52Z" finished-at="2018-04-10T17:06:55Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="2048" started-at="2018-04-05T22:57:57Z" finished-at="2018-04-05T22:57:59Z">
+    <test name="Test" duration-ms="3078" started-at="2018-04-10T17:06:52Z" finished-at="2018-04-10T17:06:55Z">
       <class name="com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest">
-        <test-method status="PASS" signature="testGetItem(java.lang.String, java.lang.String, java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2ef9b8bc]" name="testGetItem" duration-ms="1638" started-at="2018-04-05T22:57:57Z" data-provider="providerGetItem" finished-at="2018-04-05T22:57:59Z">
+        <test-method status="PASS" signature="testGetItem(java.lang.String, java.lang.String, java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2ef9b8bc]" name="testGetItem" duration-ms="2410" started-at="2018-04-10T17:06:52Z" data-provider="providerGetItem" finished-at="2018-04-10T17:06:55Z">
           <params>
             <param index="0">
               <value>
@@ -51,7 +51,7 @@ omnis rerum consequatur expedita quidem cumque explicabo]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetItem -->
-        <test-method status="PASS" signature="testGetItem(java.lang.String, java.lang.String, java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2ef9b8bc]" name="testGetItem" duration-ms="183" started-at="2018-04-05T22:57:59Z" data-provider="providerGetItem" finished-at="2018-04-05T22:57:59Z">
+        <test-method status="PASS" signature="testGetItem(java.lang.String, java.lang.String, java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2ef9b8bc]" name="testGetItem" duration-ms="345" started-at="2018-04-10T17:06:55Z" data-provider="providerGetItem" finished-at="2018-04-10T17:06:55Z">
           <params>
             <param index="0">
               <value>
@@ -95,7 +95,7 @@ adipisci impedit sequi nesciunt quis consectetur]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetItem -->
-        <test-method status="PASS" signature="testGetItem(java.lang.String, java.lang.String, java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2ef9b8bc]" name="testGetItem" duration-ms="203" started-at="2018-04-05T22:57:59Z" data-provider="providerGetItem" finished-at="2018-04-05T22:57:59Z">
+        <test-method status="PASS" signature="testGetItem(java.lang.String, java.lang.String, java.lang.String, int, int, java.lang.String, java.lang.String)[pri:0, instance:com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest@2ef9b8bc]" name="testGetItem" duration-ms="296" started-at="2018-04-10T17:06:55Z" data-provider="providerGetItem" finished-at="2018-04-10T17:06:55Z">
           <params>
             <param index="0">
               <value>

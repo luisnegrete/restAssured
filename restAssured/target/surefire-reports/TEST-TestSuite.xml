@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="TestSuite" time="2.02" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="TestSuite" time="3.053" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_161\bin"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
     <property name="java.vm.version" value="25.161-b12"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="maven.multiModuleProjectDirectory" value="C:\Users\jose.negrete\git\restAssured\restAssured"/>
@@ -19,7 +19,7 @@
     <property name="user.dir" value="C:\Users\jose.negrete\git\restAssured\restAssured"/>
     <property name="java.runtime.version" value="1.8.0_161-b12"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_161\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\JOSE~1.NEG\AppData\Local\Temp\"/>
     <property name="line.separator" value="
@@ -27,9 +27,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\jose.negrete\Documents\EclipseWorkSpaces\autoTestingTraining\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2992358114236928423.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\jose.negrete\Documents\EclipseWorkSpaces\autoTestingTraining\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3822553537846069646.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Users\jose.negrete\AppData\Local\Microsoft\WindowsApps;C:\Users\jose.negrete\AppData\Local\GitHubDesktop\bin;C:\Windows\System32;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\Users\jose.negrete\AppData\Local\Android\Sdk\platform-tools;C:\Users\jose.negrete\AppData\Local\Android\Sdk\tools;C:\Users\jose.negrete\AppData\Local\Android\Sdk\build-tools;C:\Users\jose.negrete\AppData\Local\Microsoft\WindowsApps;C:\Users\jose.negrete\AppData\Local\GitHubDesktop\bin;C:\Windows\system32;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -43,15 +43,15 @@
     <property name="java.class.path" value="C:\Users\jose.negrete\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.8.3.20180227-2135\jars\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_161"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="1.8.0_161"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_161\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_161\lib\resources.jar;C:\Program Files\Java\jre1.8.0_161\lib\rt.jar;C:\Program Files\Java\jre1.8.0_161\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_161\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_161\lib\jce.jar;C:\Program Files\Java\jre1.8.0_161\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_161\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_161\classes"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="C:\Users\jose.negrete\git\restAssured\restAssured\EMBEDDED"/>
     <property name="file.separator" value="\"/>
@@ -61,7 +61,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest" name="testGetItem" time="1.638"/>
-  <testcase classname="com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest" name="testGetItem" time="0.179"/>
-  <testcase classname="com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest" name="testGetItem" time="0.203"/>
+  <testcase classname="com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest" name="testGetItem" time="2.412"/>
+  <testcase classname="com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest" name="testGetItem" time="0.343"/>
+  <testcase classname="com.globant.autoTraningBackend.restAssured.JsonPlaceHolderRestTest" name="testGetItem" time="0.298"/>
 </testsuite>
